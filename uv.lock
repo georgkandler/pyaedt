@@ -3507,7 +3507,7 @@ requires-dist = [
     { name = "psutil", specifier = ">=6.0.0" },
     { name = "pyaedt", extras = ["jupyter"], marker = "extra == 'all'" },
     { name = "pydantic", specifier = ">=2.6.4,<2.14" },
-    { name = "pyedb", specifier = "==0.74.0" },
+    { name = "pyedb", specifier = "==0.75.0" },
     { name = "pyvista", extras = ["io"], marker = "extra == 'all'", specifier = ">=0.38.0,<0.48" },
     { name = "pyvista", extras = ["io"], marker = "extra == 'graphics'", specifier = ">=0.38.0,<0.48" },
     { name = "pyvista", extras = ["jupyter"], marker = "extra == 'examples'", specifier = ">=0.38.0,<0.48" },
@@ -3727,23 +3727,20 @@ wheels = [
 
 [[package]]
 name = "pyedb"
-version = "0.74.0"
+version = "0.75.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "ansys-edb-core" },
-    { name = "ansys-pythonnet" },
-    { name = "cffi", marker = "sys_platform == 'linux'" },
     { name = "defusedxml" },
     { name = "numpy" },
     { name = "psutil" },
     { name = "pydantic" },
-    { name = "pywin32", marker = "sys_platform == 'win32'" },
     { name = "toml" },
     { name = "xmltodict" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/19/f6/3fd48a74ee9a56072969a5a79724cfb1edd73a65c3495d9f15a012e01e09/pyedb-0.74.0.tar.gz", hash = "sha256:d3d705df64a8495cda829faa07a9c0ee1e4d4ec373ed73e7e60592f5b802d625", size = 791459, upload-time = "2026-04-28T07:20:00.979Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/3c/c9/f568adf6afc39e6eda492b68798558f742caf8bd4b03ca153c2ccf044d0d/pyedb-0.75.0.tar.gz", hash = "sha256:140cba86a66821698fca44bdc592adaab69dea6bc6667d65251dd04d3aae080c", size = 796766, upload-time = "2026-05-05T11:53:54.319Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f7/da/8d07dcf9f885fa59b61d37ace8462e8fb96a4aed0f11d0f4e6d67a8faec1/pyedb-0.74.0-py3-none-any.whl", hash = "sha256:7d34ad640314b3655eaf899ce119bda0eeb3d6d12f7deb3a1f17dae431f42447", size = 1092160, upload-time = "2026-04-28T07:19:58.677Z" },
+    { url = "https://files.pythonhosted.org/packages/a9/8d/bc859be9a650c80fee57b72a0aa4adcf8fc79376435cc497d741bd952684/pyedb-0.75.0-py3-none-any.whl", hash = "sha256:f02b2795e2feadc1c31a4d105d9d10dc303d8a593613cf7a3c3bfa4e67baabe4", size = 1097419, upload-time = "2026-05-05T11:53:52.182Z" },
 ]
 
 [[package]]
